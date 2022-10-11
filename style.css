@@ -84,3 +84,68 @@ body {
 .secondary-sidebar {
   margin-bottom: 55px;
 }
+
+/* HEADER Styling */
+.header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: stretch;
+  padding-left: 20px;
+  padding-right: 50px;
+  box-shadow: 0 8px 6px -10px black;
+}
+
+.top-header,
+.bottom-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottom-header {
+  margin-top: -30px;
+}
+
+.search {
+  width: 60%;
+  background-color: lightgray;
+  border-radius: 15px;
+  padding: 4px;
+  margin-right: auto;
+  border: none;
+}
+
+.h-icon {
+  width: 30px;
+}
+
+.top-header > .account-icon {
+  width: 42px;
+}
+
+.bottom-header > .account-icon {
+  width: 58px;
+}
+
+.presentation {
+  margin-right: auto;
+  display: grid;
+  font-weight: bold;
+}
+
+.presentation-salute {
+  font-size: 14px;
+}
+
+.presentation-name {
+  font-size: 18px;
+}
+
+button {
+  padding: 7px 24px;
+  border-radius: 15px;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
